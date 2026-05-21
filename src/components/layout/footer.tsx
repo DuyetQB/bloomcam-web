@@ -21,6 +21,8 @@ export async function Footer() {
               <li><Link href="#product" className="hover:text-foreground">{t("overview")}</Link></li>
               <li><Link href="#features" className="hover:text-foreground">{t("features")}</Link></li>
               <li><Link href="#preorder" className="hover:text-foreground">{t("preorder")}</Link></li>
+              <li><Link href="/blog" className="hover:text-foreground">{t("blog")}</Link></li>
+              <li><Link href={{ pathname: "/", hash: "faq" }} className="hover:text-foreground">{t("faq")}</Link></li>
             </ul>
           </div>
           <div>

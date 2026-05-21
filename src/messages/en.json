@@ -1,7 +1,16 @@
 {
   "metadata": {
-    "title": "BloomCam — Watch Your Plants Come Alive",
-    "description": "BloomCam transforms plant growth into cinematic timelapse stories. A premium smart plant companion for your desk."
+    "title": "BloomCam — Smart Plant Timelapse Camera | Cinematic Growth Videos",
+    "description": "BloomCam is a premium smart plant timelapse camera for desks and shelves. Capture cinematic plant growth videos, sync to iOS/Android, export Reels — a lifestyle gadget, not surveillance.",
+    "keywordsVi": [],
+    "blog": {
+      "title": "BloomCam Blog — Plant Timelapse & Indoor Gardening Guides",
+      "description": "Guides on plant timelapse photography, aesthetic desk setups, indoor gardening, and creator workflows with BloomCam."
+    },
+    "blogPost": {
+      "title": "{title} | BloomCam Blog",
+      "description": "{description}"
+    }
   },
   "lang": {
     "en": "English",
@@ -13,6 +22,9 @@
     "app": "App",
     "gallery": "Gallery",
     "features": "Features",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "about": "About",
     "preorder": "Pre-order",
     "preorderNow": "Pre-order Now",
     "menuToggle": "Toggle menu"
@@ -26,7 +38,8 @@
     "watchDemo": "Watch Demo",
     "liveGrowth": "Live Growth",
     "growthStat": "+12%",
-    "growthPeriod": "this week"
+    "growthPeriod": "this week",
+    "imageAlt": "Indoor plants growing — cinematic timelapse scene for BloomCam smart plant camera"
   },
   "product": {
     "eyebrow": "The Product",
@@ -190,7 +203,7 @@
     "titleLine1": "Begin your plant's",
     "titleLine2": "greatest story.",
     "subtitle": "Pre-order BloomCam today. Ships early 2026. A cinematic companion for the plants you've already fallen in love with.",
-    "button": "Pre-order — $149",
+    "button": "Pre-order — $99",
     "footnote": "Free shipping · 30-day returns · 2-year warranty"
   },
   "footer": {
@@ -206,6 +219,133 @@
     "legal": "Legal",
     "privacy": "Privacy",
     "terms": "Terms",
-    "copyright": "© {year} BloomCam. Crafted for plant people."
+    "copyright": "© {year} BloomCam. Crafted for plant people.",
+    "blog": "Blog",
+    "faq": "FAQ"
+  },
+  "seo": {
+    "intro": {
+      "eyebrow": "What is BloomCam?",
+      "title": "The smart plant timelapse camera for people who love plants.",
+      "p1": "BloomCam is a premium smart plant timelapse camera — a lifestyle desk gadget that records your plant's growth and turns it into cinematic timelapse videos. It is designed for plant lovers, indoor gardeners, and content creators — not for home security or surveillance.",
+      "p2": "Place BloomCam beside your monstera, pothos, or succulent. The device captures frames over days and weeks. The BloomCam mobile app (iOS and Android) compiles growth into share-ready timelapses for TikTok, Instagram Reels, and YouTube Shorts.",
+      "p3": "Category: plant timelapse camera, smart plant camera, indoor gardening tech, aesthetic desk accessory."
+    },
+    "about": {
+      "eyebrow": "About BloomCam",
+      "title": "Cinematic stories for quiet, living things.",
+      "p1": "We believe plants are characters — not background decor. BloomCam exists to honor patience: the unfurl of a leaf, the reach toward light, the slow drama of growth.",
+      "p2": "Our hardware is calm and sculptural. Our software feels like a gallery, not a dashboard. We refuse the surveillance-camera aesthetic — BloomCam belongs on beautiful desks, in sunlit rooms, and in creator workflows.",
+      "trustTitle": "Privacy & intent",
+      "trustBody": "BloomCam films your plant — not your home. Clips are for timelapse storytelling and personal journals, with cloud sync you control from the app."
+    },
+    "useCases": {
+      "eyebrow": "Use Cases",
+      "title": "Who BloomCam is for",
+      "subtitle": "Clear scenarios help you decide if BloomCam fits your ritual.",
+      "items": {
+        "lover": {
+          "title": "Plant parents",
+          "description": "Document growth milestones — repotting, new leaves, recovery arcs — without touching a timeline editor."
+        },
+        "creator": {
+          "title": "Content creators",
+          "description": "Export vertical timelapses for Reels and TikTok. Build a signature plant series from your desk."
+        },
+        "desk": {
+          "title": "Aesthetic desk setups",
+          "description": "A sculptural tech object that matches warm minimal interiors — Teenage Engineering energy, plant-soft soul."
+        },
+        "garden": {
+          "title": "Indoor gardeners",
+          "description": "Observe growth rhythm over seasons. Gentle insights without clinical grow-op dashboards."
+        }
+      }
+    },
+    "comparison": {
+      "eyebrow": "Comparison",
+      "title": "BloomCam vs generic cameras",
+      "subtitle": "BloomCam is purpose-built as a plant timelapse device — not a security cam or webcam.",
+      "headers": {
+        "feature": "Capability",
+        "bloomcam": "BloomCam",
+        "generic": "Generic camera / webcam"
+      },
+      "rows": {
+        "purpose": {
+          "feature": "Primary purpose",
+          "bloomcam": "Plant growth timelapse storytelling",
+          "generic": "Meetings, security, or manual photo"
+        },
+        "design": {
+          "feature": "Design intent",
+          "bloomcam": "Lifestyle desk sculpture",
+          "generic": "Utility or surveillance aesthetic"
+        },
+        "intervals": {
+          "feature": "Timelapse intervals",
+          "bloomcam": "Auto-adapts to plant growth",
+          "generic": "Manual setup or none"
+        },
+        "app": {
+          "feature": "Plant-first app",
+          "bloomcam": "Gallery, journal, Reels export",
+          "generic": "Generic gallery or none"
+        },
+        "privacy": {
+          "feature": "Filming context",
+          "bloomcam": "Your plant — not your room",
+          "generic": "Often room-wide surveillance"
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "subtitle": "Clear answers for shoppers, search engines, and AI assistants.",
+      "items": {
+        "what": {
+          "q": "What is BloomCam?",
+          "a": "BloomCam is a smart plant timelapse camera — a premium desk gadget that captures your plant's growth over time and creates cinematic timelapse videos via a mobile app. It is a lifestyle product for plant lovers, not a security camera."
+        },
+        "who": {
+          "q": "Who is BloomCam for?",
+          "a": "BloomCam is for plant parents, indoor gardeners, aesthetic desk setup enthusiasts, and creators who want share-ready plant growth videos without complex editing."
+        },
+        "surveillance": {
+          "q": "Is BloomCam a surveillance camera?",
+          "a": "No. BloomCam is not designed for home security. It is a plant timelapse camera focused on growth storytelling, emotional desk decor, and mobile app export — not room monitoring."
+        },
+        "how": {
+          "q": "How does BloomCam work?",
+          "a": "Place BloomCam near your plant, connect to the BloomCam app over WiFi, and start capture. The device records growth frames on smart intervals, then compiles cinematic timelapses you can browse, journal, and export."
+        },
+        "app": {
+          "q": "Does BloomCam have a mobile app?",
+          "a": "Yes. BloomCam includes iOS and Android apps with a timelapse library, plant journal, growth insights, and one-tap export for Reels and TikTok."
+        },
+        "export": {
+          "q": "Can I export videos for social media?",
+          "a": "Yes. BloomCam exports vertical cinematic timelapses optimized for TikTok, Instagram Reels, and Stories."
+        },
+        "wifi": {
+          "q": "Does BloomCam need WiFi?",
+          "a": "WiFi is used to sync timelapses to your phone and cloud library. Setup is designed to take seconds from the app."
+        },
+        "price": {
+          "q": "How much does BloomCam cost?",
+          "a": "BloomCam pre-orders start at $99 for the first edition. See the pre-order section for shipping, returns, and warranty details."
+        }
+      }
+    },
+    "blogPage": {
+      "eyebrow": "BloomCam Journal",
+      "title": "Plant timelapse guides & creator ideas",
+      "subtitle": "SEO-friendly guides on indoor gardening, desk setups, and timelapse photography with BloomCam.",
+      "readMore": "Read article",
+      "back": "Back to blog",
+      "related": "Related posts",
+      "toc": "On this page"
+    }
   }
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import { buildPageMetadata } from "@/lib/seo/metadata";
 import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { Fraunces, Outfit, Be_Vietnam_Pro } from "next/font/google";
@@ -39,18 +40,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "metadata" });
-
-  return {
-    title: t("title"),
-    description: t("description"),
-    openGraph: {
-      title: t("title"),
-      description: t("description"),
-      type: "website",
-      locale: locale === "vi" ? "vi_VN" : "en_US",
-    },
-  };
+  return buildPageMetadata({ locale, page: "home" });
 }
 
 export default async function LocaleLayout({ children, params }: Props) {

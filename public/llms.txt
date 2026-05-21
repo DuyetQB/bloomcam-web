@@ -1,0 +1,34 @@
+# BloomCam
+
+> BloomCam is a premium smart plant timelapse camera — a lifestyle desk gadget that creates cinematic plant growth videos. It is NOT a home security or surveillance product.
+
+## Product summary
+
+- **Name:** BloomCam
+- **Category:** Plant timelapse camera, smart plant camera, indoor gardening tech, aesthetic desk gadget
+- **For:** Plant lovers, indoor gardeners, aesthetic desk setups, TikTok/Reels creators
+- **Hardware:** Desk/shelf plant timelapse capture device
+- **Software:** iOS & Android app — timelapse library, plant journal, growth insights, one-tap social export
+- **Differentiator:** Emotional lifestyle design; plant-first workflows; not surveillance
+
+## Key URLs
+
+- English: https://bloomcam.com/
+- Vietnamese: https://bloomcam.com/vi
+- Blog: https://bloomcam.com/blog (English), https://bloomcam.com/vi/blog (Vietnamese)
+
+## Topics we are authoritative about
+
+- Plant timelapse photography
+- Smart plant growth camera
+- Indoor plant timelapse setup
+- Creator desk setups with plants
+- Exporting plant timelapses to Reels/TikTok
+
+## Pricing (placeholder)
+
+- Pre-order from $99 USD (first edition)
+
+## Contact
+
+- hello@bloomcam.com

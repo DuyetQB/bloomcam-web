@@ -1,7 +1,24 @@
 {
   "metadata": {
-    "title": "BloomCam — Xem Cây Của Bạn Sống Dậy",
-    "description": "BloomCam biến sự phát triển của cây thành những câu chuyện timelapse điện ảnh. Người bạn đồng hành thông minh cao cấp trên bàn làm việc của bạn."
+    "title": "BloomCam — Camera Timelapse Cây Thông Minh | Video Tăng Trưởng Điện Ảnh",
+    "description": "BloomCam là camera timelapse cây cảnh thông minh cao cấp cho bàn và kệ. Quay video tăng trưởng điện ảnh, đồng bộ iOS/Android, xuất Reels — gadget lifestyle, không phải camera an ninh.",
+    "keywordsVi": [
+      "camera timelapse cây",
+      "camera cây thông minh",
+      "quay timelapse cây cảnh",
+      "thiết bị timelapse cây",
+      "gadget bàn làm việc",
+      "trồng cây trong nhà",
+      "BloomCam"
+    ],
+    "blog": {
+      "title": "Blog BloomCam — Hướng Dẫn Timelapse & Trồng Cây Trong Nhà",
+      "description": "Bài viết về timelapse cây, setup bàn aesthetic, trồng cây trong nhà và workflow creator với BloomCam."
+    },
+    "blogPost": {
+      "title": "{title} | Blog BloomCam",
+      "description": "{description}"
+    }
   },
   "lang": {
     "en": "English",
@@ -13,6 +30,9 @@
     "app": "Ứng dụng",
     "gallery": "Thư viện",
     "features": "Tính năng",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "about": "Giới thiệu",
     "preorder": "Đặt trước",
     "preorderNow": "Đặt trước ngay",
     "menuToggle": "Mở menu"
@@ -26,7 +46,8 @@
     "watchDemo": "Xem demo",
     "liveGrowth": "Tăng trưởng",
     "growthStat": "+12%",
-    "growthPeriod": "tuần này"
+    "growthPeriod": "tuần này",
+    "imageAlt": "Cây cảnh trong nhà — cảnh timelapse điện ảnh cho camera BloomCam"
   },
   "product": {
     "eyebrow": "Sản phẩm",
@@ -190,7 +211,7 @@
     "titleLine1": "Bắt đầu câu chuyện",
     "titleLine2": "vĩ đại nhất của cây.",
     "subtitle": "Đặt trước BloomCam hôm nay. Giao hàng đầu 2026. Người bạn đồng hành điện ảnh cho những cây bạn đã yêu từ lâu.",
-    "button": "Đặt trước — $149",
+    "button": "Đặt trước — $99",
     "footnote": "Miễn phí vận chuyển · Đổi trả 30 ngày · Bảo hành 2 năm"
   },
   "footer": {
@@ -206,6 +227,133 @@
     "legal": "Pháp lý",
     "privacy": "Quyền riêng tư",
     "terms": "Điều khoản",
-    "copyright": "© {year} BloomCam. Dành cho người yêu cây."
+    "copyright": "© {year} BloomCam. Dành cho người yêu cây.",
+    "blog": "Blog",
+    "faq": "FAQ"
+  },
+  "seo": {
+    "intro": {
+      "eyebrow": "BloomCam là gì?",
+      "title": "Camera timelapse cây thông minh cho người yêu cây.",
+      "p1": "BloomCam là camera timelapse cây cảnh thông minh cao cấp — gadget trên bàn ghi lại tăng trưởng và tạo video timelapse điện ảnh. Dành cho người yêu cây, trồng cây trong nhà và creator — không phải camera an ninh.",
+      "p2": "Đặt BloomCam cạnh monstera, pothos hoặc sen đá. Thiết bị chụp khung hình theo ngày và tuần. App BloomCam (iOS/Android) ghép thành timelapse sẵn sàng đăng TikTok, Reels, Shorts.",
+      "p3": "Danh mục: camera timelapse cây, camera cây thông minh, công nghệ trồng cây trong nhà, phụ kiện bàn aesthetic."
+    },
+    "about": {
+      "eyebrow": "Về BloomCam",
+      "title": "Câu chuyện điện ảnh cho thứ sống chậm.",
+      "p1": "Chúng tôi tin cây là nhân vật — không chỉ decor. BloomCam tôn vinh sự kiên nhẫn: lá xòe, vươn về ánh sáng, kịch tính chậm của tăng trưởng.",
+      "p2": "Phần cứng calm, điêu khắc. Phần mềm như gallery, không phải dashboard. Chúng tôi từ chối aesthetic camera an ninh — BloomCam thuộc về bàn đẹp, phòng có nắng và workflow creator.",
+      "trustTitle": "Quyền riêng tư & mục đích",
+      "trustBody": "BloomCam quay cây của bạn — không quay căn nhà. Clip phục vụ timelapse và nhật ký cá nhân, đồng bộ cloud bạn kiểm soát từ app."
+    },
+    "useCases": {
+      "eyebrow": "Trường hợp sử dụng",
+      "title": "BloomCam dành cho ai",
+      "subtitle": "Các tình huống rõ ràng giúp bạn chọn BloomCam phù hợp ritual của mình.",
+      "items": {
+        "lover": {
+          "title": "Người nuôi cây",
+          "description": "Ghi cột mốc tăng trưởng — thay chậu, lá mới, hồi phục — không cần chỉnh timeline phức tạp."
+        },
+        "creator": {
+          "title": "Content creator",
+          "description": "Xuất timelapse dọc cho Reels/TikTok. Series cây signature ngay từ bàn làm việc."
+        },
+        "desk": {
+          "title": "Setup bàn aesthetic",
+          "description": "Vật công nghệ điêu khắc hợp nội thất minimal ấm — năng lượng Teenage Engineering, linh hồn cây."
+        },
+        "garden": {
+          "title": "Trồng cây trong nhà",
+          "description": "Quan sát nhịp tăng trưởng theo mùa. Insight nhẹ nhàng, không dashboard grow-op lạnh lùng."
+        }
+      }
+    },
+    "comparison": {
+      "eyebrow": "So sánh",
+      "title": "BloomCam vs camera thường",
+      "subtitle": "BloomCam được tạo riêng cho timelapse cây — không phải cam an ninh hay webcam.",
+      "headers": {
+        "feature": "Khả năng",
+        "bloomcam": "BloomCam",
+        "generic": "Camera thường / webcam"
+      },
+      "rows": {
+        "purpose": {
+          "feature": "Mục đích chính",
+          "bloomcam": "Timelapse kể chuyện tăng trưởng cây",
+          "generic": "Họp online, an ninh, hoặc ảnh thủ công"
+        },
+        "design": {
+          "feature": "Thiết kế",
+          "bloomcam": "Điêu khắc lifestyle trên bàn",
+          "generic": "Tiện ích hoặc aesthetic an ninh"
+        },
+        "intervals": {
+          "feature": "Nhịp timelapse",
+          "bloomcam": "Tự thích ứng tăng trưởng cây",
+          "generic": "Cài thủ công hoặc không có"
+        },
+        "app": {
+          "feature": "App cho cây",
+          "bloomcam": "Gallery, nhật ký, xuất Reels",
+          "generic": "Gallery chung hoặc không có"
+        },
+        "privacy": {
+          "feature": "Ngữ cảnh quay",
+          "bloomcam": "Cây của bạn — không phải phòng",
+          "generic": "Thường quay cả phòng/an ninh"
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Câu trả lời rõ ràng cho người mua, công cụ tìm kiếm và trợ lý AI.",
+      "items": {
+        "what": {
+          "q": "BloomCam là gì?",
+          "a": "BloomCam là camera timelapse cây thông minh — gadget cao cấp trên bàn ghi tăng trưởng theo thời gian và tạo video timelapse điện ảnh qua app. Là sản phẩm lifestyle cho người yêu cây, không phải camera an ninh."
+        },
+        "who": {
+          "q": "BloomCam dành cho ai?",
+          "a": "Dành cho người nuôi cây, trồng trong nhà, enthusiast setup bàn đẹp và creator muốn video tăng trưởng sẵn sàng chia sẻ mà không edit phức tạp."
+        },
+        "surveillance": {
+          "q": "BloomCam có phải camera an ninh không?",
+          "a": "Không. BloomCam không thiết kế cho an ninh nhà. Đây là camera timelapse cây cho kể chuyện tăng trưởng, decor bàn và xuất app — không giám sát phòng."
+        },
+        "how": {
+          "q": "BloomCam hoạt động thế nào?",
+          "a": "Đặt gần cây, kết nối app BloomCam qua WiFi và bắt đầu ghi. Thiết bị chụp khung hình theo nhịp thông minh, ghép timelapse điện ảnh để xem, ghi journal và xuất."
+        },
+        "app": {
+          "q": "BloomCam có app di động không?",
+          "a": "Có. App iOS và Android với thư viện timelapse, nhật ký cây, insight tăng trưởng và xuất một chạm cho Reels/TikTok."
+        },
+        "export": {
+          "q": "Có xuất video mạng xã hội không?",
+          "a": "Có. BloomCam xuất timelapse dọc điện ảnh tối ưu cho TikTok, Instagram Reels và Stories."
+        },
+        "wifi": {
+          "q": "BloomCam cần WiFi không?",
+          "a": "WiFi đồng bộ timelapse lên điện thoại và thư viện cloud. Setup thiết kế chỉ vài giây từ app."
+        },
+        "price": {
+          "q": "BloomCam giá bao nhiêu?",
+          "a": "Đặt trước từ $99 cho phiên bản đầu. Xem phần pre-order về vận chuyển, đổi trả và bảo hành."
+        }
+      }
+    },
+    "blogPage": {
+      "eyebrow": "BloomCam Journal",
+      "title": "Hướng dẫn timelapse & ý tưởng creator",
+      "subtitle": "Bài viết về trồng cây trong nhà, setup bàn và nhiếp ảnh timelapse với BloomCam.",
+      "readMore": "Đọc bài",
+      "back": "Về blog",
+      "related": "Bài liên quan",
+      "toc": "Trong bài này"
+    }
   }
 }

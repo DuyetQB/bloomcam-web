@@ -28,6 +28,7 @@ export function HeroSection() {
   return (
     <section
       ref={ref}
+      aria-label={t("eyebrow")}
       className="relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden pt-20"
     >
       <AnimatedGradientBackground variant="hero" />
@@ -41,7 +42,7 @@ export function HeroSection() {
         <div className="relative h-[70vh] w-full max-w-5xl overflow-hidden rounded-3xl opacity-20 md:opacity-30">
           <Image
             src={images.heroBackdrop}
-            alt=""
+            alt={t("imageAlt")}
             fill
             className="object-cover"
             priority

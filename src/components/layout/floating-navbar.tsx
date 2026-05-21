@@ -16,11 +16,15 @@ export function FloatingNavbar() {
   const borderOpacity = useTransform(scrollY, [0, 120], [0, 0.15]);
 
   const links = [
-    { href: "#product" as const, label: t("product") },
-    { href: "#app" as const, label: t("app") },
-    { href: "#gallery" as const, label: t("gallery") },
-    { href: "#features" as const, label: t("features") },
-  ];
+    { href: "#product", label: t("product"), isPage: false },
+    { href: "#app", label: t("app"), isPage: false },
+    { href: "#gallery", label: t("gallery"), isPage: false },
+    { href: "#faq", label: t("faq"), isPage: false },
+    { href: "/blog", label: t("blog"), isPage: true },
+  ] as const;
+
+  const resolveHref = (href: string, isPage: boolean) =>
+    isPage ? href : { pathname: "/" as const, hash: href.replace("#", "") };
 
   return (
     <>
@@ -51,7 +55,7 @@ export function FloatingNavbar() {
             {links.map((link) => (
               <Link
                 key={link.href}
-                href={link.href}
+                href={resolveHref(link.href, link.isPage)}
                 className="text-sm text-muted transition-colors hover:text-foreground"
               >
                 {link.label}
@@ -89,7 +93,7 @@ export function FloatingNavbar() {
           {links.map((link) => (
             <Link
               key={link.href}
-              href={link.href}
+              href={resolveHref(link.href, link.isPage)}
               className="text-lg text-foreground"
               onClick={() => setOpen(false)}
             >
