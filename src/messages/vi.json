@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "title": "BloomCam — Xem Cây Của Bạn Sống Dậy",
+    "description": "BloomCam biến sự phát triển của cây thành những câu chuyện timelapse điện ảnh. Người bạn đồng hành thông minh cao cấp trên bàn làm việc của bạn."
+  },
+  "lang": {
+    "en": "English",
+    "vi": "Tiếng Việt",
+    "switch": "Ngôn ngữ"
+  },
+  "nav": {
+    "product": "Sản phẩm",
+    "app": "Ứng dụng",
+    "gallery": "Thư viện",
+    "features": "Tính năng",
+    "preorder": "Đặt trước",
+    "preorderNow": "Đặt trước ngay",
+    "menuToggle": "Mở menu"
+  },
+  "hero": {
+    "eyebrow": "Người Bạn Đồng Hành Cây Cảnh",
+    "titleLine1": "Xem Cây Của Bạn",
+    "titleLine2": "Sống Dậy.",
+    "subtitle": "BloomCam biến quá trình phát triển của cây thành những câu chuyện timelapse điện ảnh — phụ kiện cao cấp trên bàn dành cho những người yêu cây chân thành.",
+    "preorder": "Đặt trước ngay",
+    "watchDemo": "Xem demo",
+    "liveGrowth": "Tăng trưởng",
+    "growthStat": "+12%",
+    "growthPeriod": "tuần này"
+  },
+  "product": {
+    "eyebrow": "Sản phẩm",
+    "title": "Thiết kế cho không gian bạn yêu.",
+    "subtitle": "BloomCam không phải camera giám sát — đó là vật trang trí điêu khắc, vô tình ghi lại câu chuyện đẹp nhất mà cây của bạn từng kể.",
+    "highlights": {
+      "timelapse": {
+        "title": "Quay Timelapse",
+        "description": "Ghi lại hành trình của cây ở 4K một cách lặng lẽ — không cần kỹ năng chỉnh sửa."
+      },
+      "tracking": {
+        "title": "Theo Dõi Tăng Trưởng",
+        "description": "Theo dõi từng chiếc lá xòe ra, từng thân cây vươn lên. BloomCam thấy được điều kỳ diệu mà bạn có thể bỏ lỡ."
+      },
+      "app": {
+        "title": "Ứng Dụng Di Động",
+        "description": "Ứng dụng đồng hành thanh lịch, êm dịu — để xem, chia sẻ và trân trọng câu chuyện của cây."
+      },
+      "setup": {
+        "title": "Lắp Đặt Dễ Dàng",
+        "description": "Đặt trên bàn, kết nối trong vài giây — và để câu chuyện bắt đầu."
+      }
+    }
+  },
+  "appSection": {
+    "eyebrow": "Ứng dụng di động",
+    "title": "Khu vườn của bạn, trong túi.",
+    "subtitle": "Trải nghiệm ứng dụng êm ái, đắm chìm — giống một phòng triển lãm hơn là công cụ.",
+    "features": {
+      "library": {
+        "label": "Thư Viện Timelapse",
+        "desc": "Mọi câu chuyện tăng trưởng, được sắp xếp đẹp mắt"
+      },
+      "journal": {
+        "label": "Nhật Ký Cây",
+        "desc": "Ghi chú, cột mốc và kỷ niệm"
+      },
+      "export": {
+        "label": "Xuất Một Chạm",
+        "desc": "Sẵn sàng cho Reels & TikTok"
+      },
+      "insights": {
+        "label": "Thông Tin Tăng Trưởng",
+        "desc": "Phân tích nhẹ nhàng, không như bảng điều khiển"
+      }
+    },
+    "screens": {
+      "timeline": {
+        "title": "Hành Trình Monstera",
+        "subtitle": "Ngày 47 · Đang phát triển tốt"
+      },
+      "gallery": {
+        "title": "Khu Vườn Của Bạn",
+        "subtitle": "12 timelapse · 3 cây"
+      },
+      "export": {
+        "title": "Chia Sẻ Câu Chuyện",
+        "subtitle": "Sẵn sàng cho Reels"
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Thư Viện Timelapse",
+    "title": "Những câu chuyện viết bằng ánh sáng.",
+    "subtitle": "Hành trình thật từ cộng đồng BloomCam — mỗi khung hình là lễ kỷ niệm của sự kiên nhẫn.",
+    "timelapseLabel": "timelapse",
+    "items": {
+      "monstera": { "title": "Monstera Xòe Lá", "duration": "30 ngày" },
+      "succulent": { "title": "Bình Minh Sen Đá", "duration": "14 ngày" },
+      "fiddle": { "title": "Giấc Mơ Fiddle Leaf", "duration": "60 ngày" },
+      "pothos": { "title": "Pothos Rủ Xuống", "duration": "21 ngày" },
+      "fern": { "title": "Dương Xỉ Thức Tỉnh", "duration": "45 ngày" },
+      "calathea": { "title": "Điệu Nhảy Calathea", "duration": "28 ngày" }
+    }
+  },
+  "features": {
+    "eyebrow": "Tính năng",
+    "title": "Tất cả những gì cây xứng đáng.",
+    "subtitle": "Công nghệ tinh tế, bọc trong thiết kế êm dịu và chạm được.",
+    "items": {
+      "timelapse": {
+        "title": "Timelapse Thông Minh",
+        "description": "Khoảng chụp tối ưu bằng AI, thích ứng theo nhịp phát triển của cây."
+      },
+      "wifi": {
+        "title": "Kết Nối WiFi",
+        "description": "Đồng bộ không dây mượt mà. Không dây cáp làm lộn xộn bàn làm việc."
+      },
+      "journal": {
+        "title": "Nhật Ký Cây",
+        "description": "Ghi lại cột mốc, ngày thay chậu và những chiến thắng nhỏ."
+      },
+      "mobile": {
+        "title": "Ứng Dụng Di Động",
+        "description": "Đồng hành iOS & Android — giao diện gallery, đậm cảm xúc."
+      },
+      "reels": {
+        "title": "Xuất Reels",
+        "description": "Một chạm ra video dọc điện ảnh — sẵn sàng TikTok, Reels, Stories."
+      },
+      "insights": {
+        "title": "Thông Tin Tăng Trưởng",
+        "description": "Phân tích nhẹ nhàng, ăn mừng tiến bộ mà không giống dashboard."
+      },
+      "cloud": {
+        "title": "Đồng Bộ Đám Mây",
+        "description": "Timelapse an toàn, truy cập trên mọi thiết bị của bạn."
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Cách hoạt động",
+    "title": "Bốn bước đến phép màu.",
+    "subtitle": "Không sách hướng dẫn. Không phức tạp. Chỉ đặt, kết nối và xem câu chuyện mở ra.",
+    "steps": {
+      "place": {
+        "title": "Đặt BloomCam",
+        "description": "Đặt cạnh cây yêu thích — kệ, bàn hoặc cửa sổ. Nó thuộc về không gian của bạn."
+      },
+      "connect": {
+        "title": "Kết Nối Ứng Dụng",
+        "description": "Tải app, ghép nối trong vài giây và đặt tên cho cây. Chỉ vậy thôi."
+      },
+      "capture": {
+        "title": "Ghi Lại Tăng Trưởng",
+        "description": "BloomCam lặng lẽ ghi lại mỗi lá xòe, mỗi nhánh vươn về phía ánh sáng."
+      },
+      "create": {
+        "title": "Tạo Timelapse",
+        "description": "Xem những câu chuyện điện ảnh nổi lên — dễ chia sẻ, đầy cảm xúc, đẹp không tưởng."
+      }
+    }
+  },
+  "social": {
+    "eyebrow": "Cộng đồng",
+    "title": "Được yêu bởi người yêu cây.",
+    "subtitle": "Từ setup bàn aesthetic đến timelapse viral — BloomCam đang trở thành một phần nghi thức.",
+    "creatorSetups": "Setup Của Creator",
+    "testimonials": {
+      "maya": {
+        "quote": "Chưa bao giờ tôi gắn bó cảm xúc với một món đồ công nghệ như vậy. BloomCam biến pothos ẻo lả của tôi thành nhân vật chính.",
+        "role": "Plantfluencer · 240K người theo dõi"
+      },
+      "james": {
+        "quote": "Nó nằm trên bàn như một món đồ Teenage Engineering — tối giản, ấm áp và cực kỳ cool.",
+        "role": "Product Designer"
+      },
+      "sofia": {
+        "quote": "Timelapse monstera của tôi đạt 2 triệu lượt xem trên Reels. BloomCam làm phần khó — tôi chỉ bấm xuất.",
+        "role": "Content Creator"
+      }
+    },
+    "setups": {
+      "copenhagen": "@plantstudio · Copenhagen",
+      "portland": "@greendesk · Portland",
+      "tokyo": "@foliageco · Tokyo"
+    }
+  },
+  "cta": {
+    "eyebrow": "Phiên Bản Đầu Giới Hạn",
+    "titleLine1": "Bắt đầu câu chuyện",
+    "titleLine2": "vĩ đại nhất của cây.",
+    "subtitle": "Đặt trước BloomCam hôm nay. Giao hàng đầu 2026. Người bạn đồng hành điện ảnh cho những cây bạn đã yêu từ lâu.",
+    "button": "Đặt trước — $149",
+    "footnote": "Miễn phí vận chuyển · Đổi trả 30 ngày · Bảo hành 2 năm"
+  },
+  "footer": {
+    "tagline": "Câu chuyện timelapse điện ảnh cho những cây bạn yêu.",
+    "product": "Sản phẩm",
+    "overview": "Tổng quan",
+    "features": "Tính năng",
+    "preorder": "Đặt trước",
+    "company": "Công ty",
+    "about": "Giới thiệu",
+    "press": "Báo chí",
+    "contact": "Liên hệ",
+    "legal": "Pháp lý",
+    "privacy": "Quyền riêng tư",
+    "terms": "Điều khoản",
+    "copyright": "© {year} BloomCam. Dành cho người yêu cây."
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "title": "BloomCam — Watch Your Plants Come Alive",
+    "description": "BloomCam transforms plant growth into cinematic timelapse stories. A premium smart plant companion for your desk."
+  },
+  "lang": {
+    "en": "English",
+    "vi": "Tiếng Việt",
+    "switch": "Language"
+  },
+  "nav": {
+    "product": "Product",
+    "app": "App",
+    "gallery": "Gallery",
+    "features": "Features",
+    "preorder": "Pre-order",
+    "preorderNow": "Pre-order Now",
+    "menuToggle": "Toggle menu"
+  },
+  "hero": {
+    "eyebrow": "Cinematic Plant Companion",
+    "titleLine1": "Watch Your Plants",
+    "titleLine2": "Come Alive.",
+    "subtitle": "BloomCam transforms plant growth into cinematic timelapse stories — a premium desk companion for the emotionally invested plant parent.",
+    "preorder": "Pre-order Now",
+    "watchDemo": "Watch Demo",
+    "liveGrowth": "Live Growth",
+    "growthStat": "+12%",
+    "growthPeriod": "this week"
+  },
+  "product": {
+    "eyebrow": "The Product",
+    "title": "Designed for desks you love.",
+    "subtitle": "BloomCam isn't surveillance — it's a sculptural object that happens to capture the most beautiful story your plants will ever tell.",
+    "highlights": {
+      "timelapse": {
+        "title": "Timelapse Capture",
+        "description": "Silently records your plant's journey in stunning 4K timelapse — no editing skills required."
+      },
+      "tracking": {
+        "title": "Growth Tracking",
+        "description": "Watch every unfurling leaf and stretching stem. BloomCam sees the subtle magic you might miss."
+      },
+      "app": {
+        "title": "Beautiful Mobile App",
+        "description": "A calm, luxurious companion app to browse, share, and celebrate your plant's story."
+      },
+      "setup": {
+        "title": "Effortless Setup",
+        "description": "Place it on your desk, connect in seconds, and let the storytelling begin."
+      }
+    }
+  },
+  "appSection": {
+    "eyebrow": "Mobile App",
+    "title": "Your garden, in your pocket.",
+    "subtitle": "A calm, immersive app experience that feels more like a gallery than a utility.",
+    "features": {
+      "library": {
+        "label": "Timelapse Library",
+        "desc": "Every growth story, beautifully organized"
+      },
+      "journal": {
+        "label": "Plant Journal",
+        "desc": "Notes, milestones, and memories"
+      },
+      "export": {
+        "label": "One-Tap Export",
+        "desc": "Share-ready for Reels & TikTok"
+      },
+      "insights": {
+        "label": "Growth Insights",
+        "desc": "Gentle analytics, never clinical"
+      }
+    },
+    "screens": {
+      "timeline": {
+        "title": "Monstera Journey",
+        "subtitle": "Day 47 · Growing beautifully"
+      },
+      "gallery": {
+        "title": "Your Garden",
+        "subtitle": "12 timelapses · 3 plants"
+      },
+      "export": {
+        "title": "Share Your Story",
+        "subtitle": "Ready for Reels"
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Timelapse Gallery",
+    "title": "Stories written in light.",
+    "subtitle": "Real growth journeys captured by BloomCam owners — each frame a quiet celebration of patience.",
+    "timelapseLabel": "timelapse",
+    "items": {
+      "monstera": { "title": "Monstera Unfurling", "duration": "30 days" },
+      "succulent": { "title": "Succulent Sunrise", "duration": "14 days" },
+      "fiddle": { "title": "Fiddle Leaf Dreams", "duration": "60 days" },
+      "pothos": { "title": "Pothos Cascade", "duration": "21 days" },
+      "fern": { "title": "Fern Awakening", "duration": "45 days" },
+      "calathea": { "title": "Calathea Dance", "duration": "28 days" }
+    }
+  },
+  "features": {
+    "eyebrow": "Features",
+    "title": "Everything your plants deserve.",
+    "subtitle": "Thoughtful technology wrapped in calm, tactile design.",
+    "items": {
+      "timelapse": {
+        "title": "Smart Timelapse",
+        "description": "AI-optimized capture intervals that adapt to your plant's growth rhythm."
+      },
+      "wifi": {
+        "title": "WiFi Connectivity",
+        "description": "Seamless wireless sync. No cables cluttering your sacred desk space."
+      },
+      "journal": {
+        "title": "Plant Journal",
+        "description": "Document milestones, repotting days, and the little victories along the way."
+      },
+      "mobile": {
+        "title": "Mobile App",
+        "description": "iOS & Android companion with a gallery-first, emotion-forward interface."
+      },
+      "reels": {
+        "title": "Reels Export",
+        "description": "One tap to cinematic vertical video — ready for TikTok, Reels, and Stories."
+      },
+      "insights": {
+        "title": "Growth Insights",
+        "description": "Gentle analytics that celebrate progress without feeling like a dashboard."
+      },
+      "cloud": {
+        "title": "Cloud Sync",
+        "description": "Your timelapses, safe and accessible across every device you own."
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "How It Works",
+    "title": "Four steps to magic.",
+    "subtitle": "No manuals. No complexity. Just place, connect, and watch the story unfold.",
+    "steps": {
+      "place": {
+        "title": "Place BloomCam",
+        "description": "Set it beside your favorite plant — on a shelf, desk, or windowsill. It belongs in your space."
+      },
+      "connect": {
+        "title": "Connect with App",
+        "description": "Download the app, pair in seconds, and name your plant. That's the entire setup."
+      },
+      "capture": {
+        "title": "Capture Growth",
+        "description": "BloomCam quietly documents every unfurl, stretch, and reach toward the light."
+      },
+      "create": {
+        "title": "Create Timelapses",
+        "description": "Watch cinematic stories emerge — shareable, emotional, impossibly beautiful."
+      }
+    }
+  },
+  "social": {
+    "eyebrow": "Community",
+    "title": "Loved by plant people.",
+    "subtitle": "From aesthetic desk setups to viral timelapses — BloomCam is becoming part of the ritual.",
+    "creatorSetups": "Creator Setups",
+    "testimonials": {
+      "maya": {
+        "quote": "I've never felt so emotionally connected to a gadget. BloomCam turned my sad pothos into a protagonist.",
+        "role": "Plantfluencer · 240K followers"
+      },
+      "james": {
+        "quote": "It sits on my desk like a piece of Teenage Engineering hardware — minimal, warm, and impossibly cool.",
+        "role": "Product Designer"
+      },
+      "sofia": {
+        "quote": "My monstera timelapse got 2M views on Reels. BloomCam did the hard part — I just hit export.",
+        "role": "Content Creator"
+      }
+    },
+    "setups": {
+      "copenhagen": "@plantstudio · Copenhagen",
+      "portland": "@greendesk · Portland",
+      "tokyo": "@foliageco · Tokyo"
+    }
+  },
+  "cta": {
+    "eyebrow": "Limited First Edition",
+    "titleLine1": "Begin your plant's",
+    "titleLine2": "greatest story.",
+    "subtitle": "Pre-order BloomCam today. Ships early 2026. A cinematic companion for the plants you've already fallen in love with.",
+    "button": "Pre-order — $149",
+    "footnote": "Free shipping · 30-day returns · 2-year warranty"
+  },
+  "footer": {
+    "tagline": "Cinematic timelapse stories for the plants you love.",
+    "product": "Product",
+    "overview": "Overview",
+    "features": "Features",
+    "preorder": "Pre-order",
+    "company": "Company",
+    "about": "About",
+    "press": "Press",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© {year} BloomCam. Crafted for plant people."
+  }
+}
