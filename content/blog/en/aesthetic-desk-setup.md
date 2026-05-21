@@ -1,4 +1,5 @@
 ---
+translationKey: aesthetic-desk-setup
 title: "Aesthetic Desk Setup Ideas for Plant Creators"
 description: "Build a calm, photogenic workspace with plants, warm light, and BloomCam — the lifestyle timelapse gadget for modern desks."
 date: "2025-12-03"

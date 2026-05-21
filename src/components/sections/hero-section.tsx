@@ -90,8 +90,8 @@ export function HeroSection() {
           </MagneticButton>
           <MagneticButton>
             <PremiumButton href="#gallery" variant="secondary">
-              <Play className="h-4 w-4 fill-current" />
-              {t("watchDemo")}
+              <Play className="h-4 w-4 shrink-0 fill-current" aria-hidden />
+              <span>{t("watchDemo")}</span>
             </PremiumButton>
           </MagneticButton>
         </motion.div>

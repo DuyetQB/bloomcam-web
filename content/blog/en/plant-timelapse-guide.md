@@ -1,4 +1,5 @@
 ---
+translationKey: plant-timelapse-guide
 title: "How to Create a Cinematic Plant Timelapse at Home"
 description: "A practical guide to setting up indoor plant timelapses with BloomCam — lighting, framing, intervals, and export tips for creators."
 date: "2025-11-12"

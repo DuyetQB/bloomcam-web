@@ -1,7 +1,9 @@
 "use client";
 
 import { useLocale } from "next-intl";
+import type { Locale } from "@/i18n/routing";
 import { usePathname, useRouter } from "@/i18n/navigation";
+import { resolvePathnameForLocale } from "@/lib/blog/locale-slugs";
 import { cn } from "@/lib/utils";
 
 const locales = [
@@ -27,7 +29,10 @@ export function LanguageSwitcher({ className }: { className?: string }) {
         <button
           key={code}
           type="button"
-          onClick={() => router.replace(pathname, { locale: code })}
+          onClick={() => {
+            const nextPath = resolvePathnameForLocale(pathname, code as Locale);
+            router.replace(nextPath, { locale: code });
+          }}
           className={cn(
             "rounded-full px-2.5 py-1 font-medium transition-all",
             locale === code

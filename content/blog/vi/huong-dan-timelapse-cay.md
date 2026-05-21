@@ -1,4 +1,5 @@
 ---
+translationKey: plant-timelapse-guide
 title: "Hướng Dẫn Timelapse Cây Cảnh Điện Ảnh Tại Nhà"
 description: "Cách setup timelapse cây trong nhà với BloomCam — ánh sáng, khung hình, khoảng chụp và xuất video cho creator."
 date: "2025-11-12"

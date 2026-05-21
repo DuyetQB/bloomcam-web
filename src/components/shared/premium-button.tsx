@@ -39,7 +39,9 @@ export function PremiumButton({
           transition={{ duration: 3, repeat: Infinity, ease: "linear", repeatDelay: 2 }}
         />
       )}
-      <span className="relative z-10">{children}</span>
+      <span className="relative z-10 inline-flex items-center justify-center gap-2">
+        {children}
+      </span>
     </>
   );
 

@@ -1,4 +1,5 @@
 ---
+translationKey: aesthetic-desk-setup
 title: "Gợi Ý Setup Bàn Làm Việc Aesthetic Cho Plant Creator"
 description: "Không gian làm việc calm, đẹp lens với cây, ánh sáng ấm và BloomCam — gadget timelapse lifestyle cho bàn hiện đại."
 date: "2025-12-03"
