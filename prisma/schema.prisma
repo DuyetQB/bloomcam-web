@@ -1,0 +1,113 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum OrderStatus {
+  PENDING
+  RESERVED
+  PAID
+  FAILED
+  CANCELLED
+  FULFILLED
+}
+
+enum PaymentProvider {
+  STRIPE
+  POLAR
+  LEMON_SQUEEZY
+  PAYPAL
+  MANUAL
+}
+
+enum PaymentMode {
+  FULL
+  DEPOSIT
+  RESERVATION
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  orders    PreorderOrder[]
+}
+
+model EmailSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  locale    String   @default("en")
+  source    String?
+  createdAt DateTime @default(now())
+}
+
+model WaitlistEntry {
+  id        String   @id @default(cuid())
+  email     String
+  variantId String?
+  locale    String   @default("en")
+  createdAt DateTime @default(now())
+
+  @@unique([email, variantId])
+}
+
+model PreorderOrder {
+  id                String            @id @default(cuid())
+  orderNumber       String            @unique
+  status            OrderStatus       @default(PENDING)
+  paymentMode       PaymentMode       @default(RESERVATION)
+  paymentProvider   PaymentProvider   @default(MANUAL)
+  providerSessionId String?
+  providerPaymentId String?
+  subtotalCents     Int
+  totalCents        Int
+  currency          String            @default("USD")
+  locale            String            @default("en")
+  email             String
+  userId            String?
+  user              User?             @relation(fields: [userId], references: [id])
+  shippingAddress   ShippingAddress?
+  items             PreorderItem[]
+  analyticsMeta     Json?
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+}
+
+model PreorderItem {
+  id          String        @id @default(cuid())
+  orderId     String
+  order       PreorderOrder @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  variantId   String
+  variantName String
+  quantity    Int
+  unitCents   Int
+  lineCents   Int
+}
+
+model ShippingAddress {
+  id         String        @id @default(cuid())
+  orderId    String        @unique
+  order      PreorderOrder @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  fullName   String
+  line1      String
+  line2      String?
+  city       String
+  state      String?
+  postalCode String
+  country    String
+  phone      String?
+}
+
+model InventoryPlaceholder {
+  id          String @id @default(cuid())
+  variantId   String @unique
+  totalUnits  Int    @default(500)
+  reserved    Int    @default(0)
+  sold        Int    @default(0)
+}

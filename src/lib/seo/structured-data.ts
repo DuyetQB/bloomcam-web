@@ -41,6 +41,35 @@ export function websiteJsonLd(locale: string) {
   };
 }
 
+export function preorderProductsJsonLd(locale: string) {
+  const path = locale === "en" ? "/preorder" : `/${locale}/preorder`;
+  const offers = [
+    { sku: "BLOOMCAM-CORE", name: "BloomCam Core", price: 99 },
+    { sku: "BLOOMCAM-STUDIO", name: "BloomCam Studio Kit", price: 149 },
+  ];
+
+  return offers.map((offer) => ({
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: offer.name,
+    description:
+      locale === "vi"
+        ? "Camera timelapse cây thông minh BloomCam — đặt trước phiên bản đầu."
+        : "BloomCam smart plant timelapse camera — first edition pre-order.",
+    brand: { "@type": "Brand", name: siteConfig.name },
+    sku: offer.sku,
+    image: images.heroBackdrop,
+    offers: {
+      "@type": "Offer",
+      url: `${siteConfig.url}${path}`,
+      priceCurrency: "USD",
+      price: String(offer.price),
+      availability: "https://schema.org/PreOrder",
+      itemCondition: "https://schema.org/NewCondition",
+    },
+  }));
+}
+
 export function productJsonLd(locale: string) {
   const description =
     locale === "vi"

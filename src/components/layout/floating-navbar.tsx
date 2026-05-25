@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
+import { PreorderTrigger } from "@/components/preorder/preorder-trigger";
 import { PremiumButton } from "@/components/shared/premium-button";
 
 export function FloatingNavbar() {
@@ -65,9 +66,11 @@ export function FloatingNavbar() {
 
           <div className="hidden items-center gap-4 md:flex">
             <LanguageSwitcher />
-            <PremiumButton href="#preorder" variant="primary" className="!px-6 !py-2.5 !text-xs">
-              {t("preorder")}
-            </PremiumButton>
+            <PreorderTrigger>
+              <PremiumButton href="#preorder" variant="primary" className="!px-6 !py-2.5 !text-xs">
+                {t("preorder")}
+              </PremiumButton>
+            </PreorderTrigger>
           </div>
 
           <div className="flex items-center gap-2 md:hidden">
@@ -100,7 +103,9 @@ export function FloatingNavbar() {
               {link.label}
             </Link>
           ))}
-          <PremiumButton href="#preorder">{t("preorderNow")}</PremiumButton>
+          <PreorderTrigger>
+            <PremiumButton href="#preorder">{t("preorderNow")}</PremiumButton>
+          </PreorderTrigger>
         </div>
       </motion.div>
     </>

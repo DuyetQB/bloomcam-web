@@ -6,6 +6,7 @@ import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { Fraunces, Outfit, Be_Vietnam_Pro } from "next/font/google";
 import { GrainOverlay } from "@/components/effects/grain-overlay";
+import { AppShell } from "@/components/providers/app-shell";
 import { SmoothScrollProvider } from "@/components/providers/smooth-scroll-provider";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
@@ -61,7 +62,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body className="min-h-screen bg-background text-foreground antialiased">
         <NextIntlClientProvider messages={messages}>
           <SmoothScrollProvider>
-            {children}
+            <AppShell>{children}</AppShell>
             <GrainOverlay />
           </SmoothScrollProvider>
         </NextIntlClientProvider>

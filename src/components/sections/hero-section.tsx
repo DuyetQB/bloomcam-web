@@ -10,6 +10,7 @@ import { FloatingParticles } from "@/components/effects/floating-particles";
 import { BloomCamDevice } from "@/components/product/bloomcam-device";
 import { HeroSpotlight } from "@/components/shared/hero-spotlight";
 import { MagneticButton } from "@/components/shared/magnetic-button";
+import { PreorderTrigger } from "@/components/preorder/preorder-trigger";
 import { PremiumButton } from "@/components/shared/premium-button";
 import { FloatingPhoneMockup } from "@/components/product/floating-phone-mockup";
 import { images } from "@/lib/images";
@@ -84,9 +85,11 @@ export function HeroSection() {
           className="mt-10 flex flex-wrap items-center justify-center gap-4"
         >
           <MagneticButton>
-            <PremiumButton href="#preorder" variant="primary">
-              {t("preorder")}
-            </PremiumButton>
+            <PreorderTrigger>
+              <PremiumButton href="#preorder" variant="primary">
+                {t("preorder")}
+              </PremiumButton>
+            </PreorderTrigger>
           </MagneticButton>
           <MagneticButton>
             <PremiumButton href="#gallery" variant="secondary">

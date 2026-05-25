@@ -198,6 +198,26 @@
       "tokyo": "@foliageco · Tokyo"
     }
   },
+  "pricing": {
+    "badge": "Pre-order open",
+    "title": "Choose your edition",
+    "subtitle": "Two kits for plant lovers and creators — cinematic timelapse hardware, not a generic gadget drop.",
+    "shippingEstimate": "First batch · estimated ship early 2026 · free pre-order shipping",
+    "preorderPrice": "Pre-order price",
+    "cta": "Pre-order {kit}",
+    "trust": {
+      "limited": "Limited early batch",
+      "ships": "Ships soon",
+      "secure": "Secure checkout"
+    },
+    "lifestyle": {
+      "eyebrow": "On your desk",
+      "title": "Built for creator workflows and warm minimal setups.",
+      "desk": "Warm minimal desk with BloomCam",
+      "workflow": "Plant timelapse creator workflow",
+      "creator": "Indoor plant growth storytelling"
+    }
+  },
   "cta": {
     "eyebrow": "Limited First Edition",
     "titleLine1": "Begin your plant's",
@@ -346,6 +366,93 @@
       "back": "Back to blog",
       "related": "Related posts",
       "toc": "On this page"
+    }
+  },
+  "preorder": {
+    "header": {
+      "eyebrow": "Early Access",
+      "title": "Reserve your BloomCam"
+    },
+    "close": "Close",
+    "recommended": "Recommended",
+    "continue": "Continue",
+    "back": "Back",
+    "stepCounter": "Step {current} of {total}",
+    "steps": {
+      "variant": "Choose your kit",
+      "quantity": "Quantity",
+      "shipping": "Shipping",
+      "payment": "Confirm"
+    },
+    "variant": {
+      "title": "Choose your BloomCam",
+      "subtitle": "Two editions for plant lovers and creators — cinematic timelapse, not surveillance."
+    },
+    "quantity": {
+      "title": "How many?",
+      "label": "Quantity",
+      "hint": "Limited first batch — max 5 per order."
+    },
+    "shipping": {
+      "title": "Where should we send it?",
+      "subtitle": "We'll only use this for delivery and order updates."
+    },
+    "payment": {
+      "title": "Reserve your spot",
+      "subtitle": "No charge today with reservation mode — we'll confirm before capture.",
+      "secure": "Secure checkout",
+      "reservationNote": "You're reserving a unit from the first production run. We'll email payment instructions before ship.",
+      "terms": "I agree to the pre-order terms, privacy policy, and understand estimated shipping is early 2026.",
+      "cta": "Complete pre-order"
+    },
+    "success": {
+      "title": "You're in the first wave.",
+      "subtitle": "We've reserved your BloomCam. Watch your inbox for confirmation and growth tips.",
+      "done": "Back to BloomCam"
+    },
+    "summary": {
+      "title": "Order summary",
+      "qty": "Quantity · {count}",
+      "total": "Total",
+      "shippingNote": "Estimated ships early 2026. Free shipping on pre-orders.",
+      "limitedBatch": "Limited early batch"
+    },
+    "fields": {
+      "email": "Email",
+      "fullName": "Full name",
+      "line1": "Address",
+      "line2": "Apartment, suite (optional)",
+      "city": "City",
+      "state": "State / region",
+      "postalCode": "Postal code",
+      "country": "Country"
+    },
+    "core": {
+      "name": "BloomCam Core",
+      "tagline": "The essential plant timelapse camera.",
+      "badge": "Founder's pick",
+      "features": {
+        "camera": "Smart timelapse camera",
+        "usbc": "USB-C power",
+        "wifi": "WiFi sync",
+        "app": "iOS & Android app",
+        "export": "Cinematic Reels export"
+      }
+    },
+    "studio": {
+      "name": "BloomCam Studio Kit",
+      "tagline": "Everything for creator-grade plant films.",
+      "badge": "Creator edition",
+      "features": {
+        "everything": "Everything in Core",
+        "tripod": "Premium mini tripod",
+        "accessories": "Creator accessory pack",
+        "flexibility": "Flexible desk & shelf setup"
+      }
+    },
+    "page": {
+      "title": "Pre-order BloomCam",
+      "description": "Reserve BloomCam Core or Studio Kit — premium smart plant timelapse camera."
     }
   }
 }

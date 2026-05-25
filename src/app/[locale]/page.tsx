@@ -5,6 +5,7 @@ import { HomeJsonLd } from "@/components/seo/home-json-ld";
 import { AppExperience } from "@/components/sections/app-experience";
 import { AboutSection } from "@/components/sections/about-section";
 import { ComparisonSection } from "@/components/sections/comparison-section";
+import { PreorderPricingSection } from "@/components/sections/preorder-pricing-section";
 import { FaqSection } from "@/components/sections/faq-section";
 import { FeaturesSection } from "@/components/sections/features-section";
 import { FinalCTA } from "@/components/sections/final-cta";
@@ -42,6 +43,7 @@ export default async function Home({ params }: Props) {
         <HowItWorks />
         <UseCasesSection />
         <ComparisonSection />
+        <PreorderPricingSection />
         <SocialProof />
         <AboutSection />
         <FaqSection />

@@ -206,6 +206,26 @@
       "tokyo": "@foliageco · Tokyo"
     }
   },
+  "pricing": {
+    "badge": "Đang mở đặt trước",
+    "title": "Chọn phiên bản của bạn",
+    "subtitle": "Hai bộ cho người yêu cây và creator — phần cứng timelapse điện ảnh, không phải shop template.",
+    "shippingEstimate": "Đợt đầu · dự kiến giao đầu 2026 · miễn phí vận chuyển khi đặt trước",
+    "preorderPrice": "Giá đặt trước",
+    "cta": "Đặt trước {kit}",
+    "trust": {
+      "limited": "Đợt early giới hạn",
+      "ships": "Sắp giao hàng",
+      "secure": "Thanh toán an toàn"
+    },
+    "lifestyle": {
+      "eyebrow": "Trên bàn làm việc",
+      "title": "Cho workflow creator và setup tối giản ấm áp.",
+      "desk": "Bàn làm việc tối giản với BloomCam",
+      "workflow": "Workflow timelapse cây cho creator",
+      "creator": "Kể chuyện tăng trưởng cây trong nhà"
+    }
+  },
   "cta": {
     "eyebrow": "Phiên Bản Đầu Giới Hạn",
     "titleLine1": "Bắt đầu câu chuyện",
@@ -354,6 +374,93 @@
       "back": "Về blog",
       "related": "Bài liên quan",
       "toc": "Trong bài này"
+    }
+  },
+  "preorder": {
+    "header": {
+      "eyebrow": "Early Access",
+      "title": "Đặt trước BloomCam"
+    },
+    "close": "Đóng",
+    "recommended": "Đề xuất",
+    "continue": "Tiếp tục",
+    "back": "Quay lại",
+    "stepCounter": "Bước {current}/{total}",
+    "steps": {
+      "variant": "Chọn phiên bản",
+      "quantity": "Số lượng",
+      "shipping": "Giao hàng",
+      "payment": "Xác nhận"
+    },
+    "variant": {
+      "title": "Chọn BloomCam của bạn",
+      "subtitle": "Hai phiên bản cho người yêu cây và creator — timelapse điện ảnh, không phải camera an ninh."
+    },
+    "quantity": {
+      "title": "Bao nhiêu chiếc?",
+      "label": "Số lượng",
+      "hint": "Đợt đầu giới hạn — tối đa 5 mỗi đơn."
+    },
+    "shipping": {
+      "title": "Giao đến đâu?",
+      "subtitle": "Chúng tôi chỉ dùng thông tin này cho giao hàng và cập nhật đơn."
+    },
+    "payment": {
+      "title": "Giữ chỗ của bạn",
+      "subtitle": "Chế độ đặt chỗ — chưa thu phí hôm nay.",
+      "secure": "Thanh toán an toàn",
+      "reservationNote": "Bạn đang giữ suất trong đợt sản xuất đầu. Chúng tôi sẽ email hướng dẫn thanh toán trước khi giao.",
+      "terms": "Tôi đồng ý điều khoản đặt trước, chính sách quyền riêng tư và hiểu giao hàng dự kiến đầu 2026.",
+      "cta": "Hoàn tất đặt trước"
+    },
+    "success": {
+      "title": "Bạn đã vào đợt đầu.",
+      "subtitle": "Chúng tôi đã giữ chỗ BloomCam cho bạn. Kiểm tra email để nhận xác nhận.",
+      "done": "Về trang chủ"
+    },
+    "summary": {
+      "title": "Tóm tắt đơn",
+      "qty": "Số lượng · {count}",
+      "total": "Tổng",
+      "shippingNote": "Dự kiến giao đầu 2026. Miễn phí vận chuyển khi đặt trước.",
+      "limitedBatch": "Đợt early giới hạn"
+    },
+    "fields": {
+      "email": "Email",
+      "fullName": "Họ tên",
+      "line1": "Địa chỉ",
+      "line2": "Căn hộ (tuỳ chọn)",
+      "city": "Thành phố",
+      "state": "Tỉnh / bang",
+      "postalCode": "Mã bưu điện",
+      "country": "Quốc gia"
+    },
+    "core": {
+      "name": "BloomCam Core",
+      "tagline": "Camera timelapse cây thiết yếu.",
+      "badge": "Founder's pick",
+      "features": {
+        "camera": "Camera timelapse thông minh",
+        "usbc": "Nguồn USB-C",
+        "wifi": "Đồng bộ WiFi",
+        "app": "App iOS & Android",
+        "export": "Xuất Reels điện ảnh"
+      }
+    },
+    "studio": {
+      "name": "BloomCam Studio Kit",
+      "tagline": "Trọn bộ cho phim cây kiểu creator.",
+      "badge": "Phiên bản Creator",
+      "features": {
+        "everything": "Mọi thứ trong Core",
+        "tripod": "Tripod mini cao cấp",
+        "accessories": "Bộ phụ kiện creator",
+        "flexibility": "Linh hoạt bàn & kệ"
+      }
+    },
+    "page": {
+      "title": "Đặt trước BloomCam",
+      "description": "Đặt trước BloomCam Core hoặc Studio Kit — camera timelapse cây cao cấp."
     }
   }
 }

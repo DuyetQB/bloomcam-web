@@ -6,6 +6,7 @@ import { AnimatedGradientBackground } from "@/components/effects/animated-gradie
 import { FloatingParticles } from "@/components/effects/floating-particles";
 import { BloomCamDevice } from "@/components/product/bloomcam-device";
 import { MagneticButton } from "@/components/shared/magnetic-button";
+import { PreorderTrigger } from "@/components/preorder/preorder-trigger";
 import { PremiumButton } from "@/components/shared/premium-button";
 
 export function FinalCTA() {
@@ -56,9 +57,11 @@ export function FinalCTA() {
           className="mt-10"
         >
           <MagneticButton>
-            <PremiumButton href="#preorder" variant="primary" className="!px-10 !py-4 !text-base">
-              {t("button")}
-            </PremiumButton>
+            <PreorderTrigger>
+              <PremiumButton href="#preorder" variant="primary" className="!px-10 !py-4 !text-base">
+                {t("button")}
+              </PremiumButton>
+            </PreorderTrigger>
           </MagneticButton>
           <p className="mt-4 text-xs text-muted">{t("footnote")}</p>
         </motion.div>

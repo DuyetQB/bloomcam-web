@@ -27,6 +27,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     });
 
+    entries.push({
+      url: absoluteUrl(locale, "/preorder"),
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.95,
+    });
+
     for (const post of getAllPosts(locale)) {
       entries.push({
         url: absoluteUrl(locale, `/blog/${post.slug}`),
